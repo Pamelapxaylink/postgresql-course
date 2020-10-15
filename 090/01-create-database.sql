@@ -1,1 +1,1 @@
-CREATE DATABASE wishlists;
+CREATE DATABASE wishlists; 

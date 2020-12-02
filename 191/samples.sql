@@ -1,0 +1,2 @@
+--Fetch
+SELECT * FROM people FETCH FIRST 10 ROWS ONLY; 

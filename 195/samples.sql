@@ -1,4 +1,4 @@
-
+-- Returning the rows that have been updated, "returning clause"
 SELECT pid, ppoints AS "BEFORE" FROM people ORDER BY pid LIMIT 10;
 
 -- UPDATE people SET ppoints = ppoints + 10 WHERE pid <= 10 RETURNING *;

@@ -1,3 +1,4 @@
+BEGIN; 
 -- CREATE DATABASE wishlists;
 
 DROP TABLE IF EXISTS listitems;
@@ -4045,3 +4046,5 @@ INSERT INTO listitems (lid, iid, lidesired, lipurchased) VALUES
 (140, 241, 17, 10),
 (781, 74, 4, 3),
 (296, 264, 14, 9);
+
+COMMIT;
